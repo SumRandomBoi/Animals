@@ -117,6 +117,9 @@ table td{
     width: 400px;
     text-align: center;
 }
+table tr:hover{
+    background-color: gold;
+}
 
 .footer{
     text-align: center;
