@@ -1,0 +1,127 @@
+body{
+    background-color: lightgreen;
+    text-align: center;
+    align-items: center;
+}
+
+.banner{
+    width: auto;
+    height: 350px;
+    background-image: url('images/zoo-banner.jpeg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    background-color: blanchedalmond;
+    border: 3px black solid;
+    text-align: center;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline-block;
+    width: 250px;
+}
+.nav ul li a{
+    text-decoration: none;
+    background-color: aquamarine;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+.nav ul li a:hover {
+    background-color: white;
+    box-shadow: -5px -5px gainsboro;
+}
+
+.amphibian{
+    background-color: blanchedalmond;
+    text-align: center;
+    border: 3px black solid;
+}
+.amphibian p{
+    text-align: center;
+}
+.amphibian ul{
+    text-decoration: none;
+}
+.amphibian ul li{
+    display: list-item;
+    text-align: left;
+}
+
+.bird{
+    text-align: center;
+}
+.bird p{
+    text-align: center;
+}
+.birdcard{
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    border: 3px white solid;
+    display: inline-block;
+    margin: 3px;
+}
+.birdcard img{
+    width: 100%;
+}
+
+.fish{
+    text-align: center;
+    border: 5px white solid;
+    border-style: groove;
+}
+.fish ul{
+    text-decoration: none;
+}
+.fish ul li{
+    display: list-item;
+    text-align: left;
+}
+
+.mammal{
+    text-align: center;
+}
+
+.mammalcard{
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    display: inline-block;
+    border: 3px wheat solid;
+    margin: 3px;
+}
+.mammalcard img{
+    width: 100%;
+}
+
+.reptile{
+    text-align: center;
+}
+
+table{
+    width: fit-content;
+    
+}
+table tr, td, th{
+    border: 3px white solid;
+    border-collapse: collapse;
+}
+table td{
+    width: 400px;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
+.footer p{
+    font-weight: bold;
+
+}
